@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "id": "p1",
+      "name": "우리금융",
+      "thumb": "https://upload.wikimedia.org/wikipedia/ko/2/25/%EC%9A%B0%EB%A6%AC%EA%B8%88%EC%9C%B5%EA%B7%B8%EB%A3%B9_%EB%A1%9C%EA%B3%A0.png?20160803190755"
+    },
+    {
+      "id": "p2",
+      "name": "에스엠",
+      "thumb": "https://cdn.gukjenews.com/news/photo/202107/2268465_2259239_833.png"
+    }
+  ]
+}

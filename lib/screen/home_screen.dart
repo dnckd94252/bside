@@ -1,5 +1,6 @@
-import 'package:bside/widget/home/home_screen_header.dart';
-import 'package:bside/widget/home/home_screen_visual.dart';
+import 'package:bside/widget/home/home_header.dart';
+import 'package:bside/widget/home/home_mandate.dart';
+import 'package:bside/widget/home/home_visual.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,8 +11,15 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
-        children: const [
-          HomeScreenVisual(),
+        children: [
+          const HomeScreenVisual(),
+          Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 20,
+              vertical: 30,
+            ),
+            child: HomeScreenMandate(),
+          ),
         ],
       ),
       appBar: AppBar(

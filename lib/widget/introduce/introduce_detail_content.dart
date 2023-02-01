@@ -4,24 +4,6 @@ import 'package:bside/widget/introduce/introduce_detail.dart';
 import 'package:bside/widget/introduce/introduce_visual.dart';
 import 'package:flutter/material.dart';
 
-// class DetailContent extends StatelessWidget {
-//   final String title, moderator, introduce;
-//   final DateTime datePlan;
-
-//   const DetailContent({
-//     Key? key,
-//     required this.datePlan,
-//     required this.title,
-//     required this.moderator,
-//     required this.introduce,
-//   }) : super(key: key);
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return
-//   }
-// }
-
 class IntroduceDetailItem extends StatelessWidget {
   const IntroduceDetailItem({
     Key? key,

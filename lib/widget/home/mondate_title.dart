@@ -1,9 +1,12 @@
+import 'package:bside/service/model/list_model.dart';
 import 'package:flutter/material.dart';
 
 class MandateTitle extends StatelessWidget {
+  final Future<List<ListModel>> company;
+
   const MandateTitle({
-    Key? key,
-  }) : super(key: key);
+    required this.company,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -24,18 +27,35 @@ class MandateTitle extends StatelessWidget {
             const SizedBox(
               width: 5,
             ),
-            Text(
-              '2',
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Theme.of(context).primaryColor,
-              ),
+            FutureBuilder(
+              future: company,
+              builder: ((context, snapshot) {
+                if (snapshot.hasData) {
+                  return Text(
+                    '${snapshot.data!.length}',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  );
+                } else {
+                  return Text(
+                    '0',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  );
+                }
+              }),
             ),
           ],
         ),
         IconButton(
-          onPressed: () {},
+          onPressed: () {
+          },
           icon: const Icon(
             Icons.keyboard_arrow_right,
             color: Colors.black38,

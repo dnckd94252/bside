@@ -69,6 +69,7 @@ flutter:
     - assets/list.json
     - assets/detail.json
     - assets/agenda.json
+    - assets/location.json
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

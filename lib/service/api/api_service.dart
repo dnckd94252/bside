@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:bside/service/model/agenda_model.dart';
 import 'package:bside/service/model/detail_model.dart';
 import 'package:bside/service/model/list_model.dart';
+import 'package:bside/service/model/location_model.dart';
 import 'package:flutter/services.dart';
 
 class ApiService {
@@ -41,6 +42,20 @@ class ApiService {
         agendaData.add(agendaItem);
       }
       return agendaData;
+    }
+    throw Error();
+  }
+
+  static Future<List<LocationModel>> getLocation() async {
+    final String response = await rootBundle.loadString('assets/location.json');
+    List<LocationModel> locationData = [];
+    if (response.isNotEmpty) {
+      final List<dynamic> locations = await json.decode(response);
+      for (var location in locations) {
+        final locationItem = LocationModel.fromJson(location);
+        locationData.add(locationItem);
+      }
+      return locationData;
     }
     throw Error();
   }

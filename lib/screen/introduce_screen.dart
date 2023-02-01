@@ -11,7 +11,7 @@ class IntroduceScreen extends StatelessWidget {
   IntroduceScreen({super.key});
   final Future<DetailModel> detail = ApiService.getDetail();
   final Future<List<AgendaModel>> agendas = ApiService.getAgenda();
-  
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -21,7 +21,7 @@ class IntroduceScreen extends StatelessWidget {
           final datePlan = DateTime.parse('${snapshot.data!.date}');
           return Scaffold(
             backgroundColor: const Color(0xFFF8FAFB),
-            bottomSheet: IntroduceBottom(),
+            bottomSheet: const IntroduceBottom(),
             appBar: IntroduceAppBar(company: '${snapshot.data!.company}'),
             body: SingleChildScrollView(
               child: Column(

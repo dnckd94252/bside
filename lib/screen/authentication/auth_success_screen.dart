@@ -1,4 +1,4 @@
-import 'package:bside/screen/commission/commission_screen.dart';
+import 'package:bside/screen/commission/commission_location_screen.dart';
 import 'package:flutter/material.dart';
 
 class AuthSuccessScreen extends StatelessWidget {

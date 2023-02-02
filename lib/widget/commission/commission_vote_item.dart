@@ -24,7 +24,7 @@ class _VoteItemState extends State<VoteItem> {
       checkType = type;
     });
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return checkType == null
@@ -37,6 +37,7 @@ class _VoteItemState extends State<VoteItem> {
               vertical: 20,
             ),
             decoration: BoxDecoration(
+              color: Colors.white,
               borderRadius: BorderRadius.circular(10),
               border: Border.all(
                 color: Colors.black12,

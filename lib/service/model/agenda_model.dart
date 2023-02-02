@@ -12,7 +12,7 @@ class AgendaModel {
     type = json['type'];
     content = json['content'];
   }
-
+  
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['id'] = id;

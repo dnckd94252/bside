@@ -50,7 +50,7 @@ class CommissionLevel extends StatelessWidget {
           Container(
             padding: const EdgeInsets.only(
               top: 20,
-              bottom: 40,
+              bottom: 30,
             ),
             width: double.infinity,
             decoration: const BoxDecoration(

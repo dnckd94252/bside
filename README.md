@@ -21,45 +21,42 @@
 ## 📸 ScreenShots
 
 
-| Light                             | Dark                              |
+| Home                             | Introduce                              |
 | --------------------------------- | --------------------------------- |
 | <img src="assets/capture/1.png" width="400">  | <img src="assets/capture/2.png" width="400">  |
-| Light                             | Dark                              |
+| Auth                             | Auth Success                              |
 | --------------------------------- | --------------------------------- |
 | <img src="assets/capture/3.png" width="400">  | <img src="assets/capture/4.png" width="400">  |
-| Light                             | Dark                              |
+| Search                             | Popup                              |
 | --------------------------------- | --------------------------------- |
 | <img src="assets/capture/5.png" width="400">  | <img src="assets/capture/6.png" width="400">  |
-| Light                             | Dark                              |
+| Commission vote                           | Commission Sign                              |
 | --------------------------------- | --------------------------------- |
 | <img src="assets/capture/7.png" width="400">  | <img src="assets/capture/8.png" width="400">  |
+| Commission id card                           | Last Screen                              |
+| --------------------------------- | --------------------------------- |
+| <img src="assets/capture/9.png" width="400">  | <img src="assets/capture/10.png" width="400">  |
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+이것은 프로젝트를 로컬로 설정하는 방법에 대한 지침을 제공하는 방법의 예입니다. 로컬 복사본을 시작하고 실행하려면 다음 간단한 예제 단계를 따르십시오.
 
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_아래는 앱 설치 및 설정을 지시하는 방법의 예입니다. 이 템플릿은 외부 종속성 또는 서비스에 의존하지 않습니다._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/dnckd94252/bside.git
    ```
-3. Install NPM packages
+2. Install Flutter packages
    ```sh
-   npm install
+   flutter pub get
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Run Flutter debug apk
+   ```sh
+   flutter run
    ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-

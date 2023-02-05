@@ -71,6 +71,7 @@ class AgendaItem extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.black.withOpacity(.7),
                   letterSpacing: -1,
+                  fontSize: 12,
                 ),
               ),
             ],

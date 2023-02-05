@@ -20,15 +20,19 @@
 
 ## 📸 ScreenShots
 
-<!-- <img src="ss/mockup.png"/> -->
 
 | Light                             | Dark                              |
 | --------------------------------- | --------------------------------- |
-| <img src="ss/1.png" width="400">  | <img src="ss/2.png" width="400">  |
-
-<!-- ABOUT THE PROJECT -->
-
-
+| <img src="assets/capture/1.png" width="400">  | <img src="assets/capture/2.png" width="400">  |
+| Light                             | Dark                              |
+| --------------------------------- | --------------------------------- |
+| <img src="assets/capture/3.png" width="400">  | <img src="assets/capture/4.png" width="400">  |
+| Light                             | Dark                              |
+| --------------------------------- | --------------------------------- |
+| <img src="assets/capture/5.png" width="400">  | <img src="assets/capture/6.png" width="400">  |
+| Light                             | Dark                              |
+| --------------------------------- | --------------------------------- |
+| <img src="assets/capture/7.png" width="400">  | <img src="assets/capture/8.png" width="400">  |
 
 
 <!-- GETTING STARTED -->
